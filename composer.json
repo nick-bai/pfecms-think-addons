@@ -1,11 +1,15 @@
 {
-    "name": "zz-studio/think-addons",
+    "name": "nickbai/pfecms-think-addons",
     "description": "The ThinkPHP6 Addons Package",
     "license": "Apache-2.0",
     "authors": [
         {
             "name": "byron",
             "email": "xiaobo.sun@qq.com"
+        },
+        {
+            "name": "NickBai",
+            "email": "19022822973@qq.com"
         }
     ],
     "require": {
