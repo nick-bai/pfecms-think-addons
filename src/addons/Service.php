@@ -41,9 +41,6 @@ class Service extends \think\Service
     {
         $this->registerRoutes(function (Route $route) {
             // 路由脚本
-<<<<<<< HEAD
-            $execute = '\\think\\addons\\Route@execute';
-=======
             $execute = '\\think\\addons\\Route::execute';
 
             // 注册插件公共中间件
@@ -51,10 +48,6 @@ class Service extends \think\Service
                 $this->app->middleware->import(include $this->app->addons->getAddonsPath() . 'middleware.php', 'route');
             }
 
-<<<<<<< HEAD
->>>>>>> 7eb740cb219a111d593a05ad88248a74f640fe5c
-=======
->>>>>>> 7eb740cb219a111d593a05ad88248a74f640fe5c
             // 注册控制器路由
             $route->rule("addons/:addon/[:controller]/[:action]", $execute)->middleware(Addons::class);
             // 自定义路由
