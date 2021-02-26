@@ -1,8 +1,8 @@
 # think-addons
-The ThinkPHP 6 Addons Package
+The ThinkPHP 6 Addons Package for PFECMS
 
 ## 安装
-> composer require zzstudio/think-addons
+> composer require nickbai/pfecms-think-addons
 
 ## 配置
 
